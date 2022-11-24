@@ -9,9 +9,6 @@ import androidx.appcompat.app.AppCompatActivity
 import ci.astdev.onep_users.databinding.ActivityFuitesDetailsBinding
 import com.google.firebase.auth.FirebaseAuth
 
-
-
-
 class FuitesDetails : AppCompatActivity() {
 
     private lateinit var binding: ActivityFuitesDetailsBinding
@@ -24,8 +21,7 @@ class FuitesDetails : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_back)
-        supportActionBar?.setTitle("Détails de la fuite")
-
+        supportActionBar?.title = "Détails de la fuite"
 
         binding.Name.text=Adapter.strShowName
         binding.Mobile.text=Adapter.strShowPhone
@@ -57,6 +53,4 @@ class FuitesDetails : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
-
-
 }

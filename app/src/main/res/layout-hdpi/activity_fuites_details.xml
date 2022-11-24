@@ -5,29 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#5ccff9"
+    tools:ignore="HardcodedText"
     tools:context=".FuitesDetails">
-
- <!--   <FrameLayout
-        android:id="@+id/frameLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="200dp"
-        android:background="@drawable/entete_inv"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />  -->
-
-    <!--   <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="@dimen/_80sdp"
-        android:layout_height="@dimen/_80sdp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
-        app:srcCompat="@drawable/signaler_fuite" />  -->
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -74,7 +53,7 @@
                     android:text=" Nom et prénoms"
                     android:textColor="#000000"
                     android:textSize="@dimen/_15ssp"
-                    app:drawableStartCompat="@drawable/ic_person" />
+                    app:drawableStartCompat="@drawable/ic_person"/>
 
                 <TextView
                     android:id="@+id/Name"

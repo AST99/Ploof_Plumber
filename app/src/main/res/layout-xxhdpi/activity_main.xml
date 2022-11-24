@@ -270,7 +270,7 @@
                         android:layout_marginStart="@dimen/_10sdp"
                         android:layout_marginTop="@dimen/_9sdp"
                         android:text=" Numéro de téléphone"
-                        android:textColor="#000000"
+                        android:textColor="#757575"
                         android:textSize="@dimen/_13ssp"
                         app:drawableStartCompat="@drawable/ic_mobile" />
 

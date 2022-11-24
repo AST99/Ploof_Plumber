@@ -101,17 +101,6 @@
                         android:textAllCaps="false"
                         android:textSize="@dimen/_14ssp" />
 
-                    <TextView
-                        android:id="@+id/txtViewIP"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:padding="@dimen/_5sdp"
-                        android:text="Info personnelle"
-                        android:textAlignment="center"
-                        android:textSize="@dimen/_14ssp"
-                        android:visibility="gone" />
-
                     <View
                         android:id="@+id/divider3"
                         android:layout_width="@dimen/_1sdp"
@@ -129,16 +118,6 @@
                         android:textAllCaps="false"
                         android:textSize="@dimen/_14ssp" />
 
-                    <TextView
-                        android:id="@+id/txtViewFS"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:padding="@dimen/_5sdp"
-                        android:text="Fuites signalées"
-                        android:textAlignment="center"
-                        android:textSize="@dimen/_14ssp"
-                        android:visibility="gone" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -234,6 +213,7 @@
                     android:layout_marginEnd="@dimen/_25sdp"
                     android:text="Fuites \nréparer"
                     android:textAlignment="center"
+                    android:textColor="#757575"
                     android:textSize="@dimen/_13ssp" />
 
                 <TextView
@@ -244,8 +224,8 @@
                     android:layout_marginStart="@dimen/_25sdp"
                     android:text="Évaluation\npositive"
                     android:textAlignment="center"
+                    android:textColor="#757575"
                     android:textSize="@dimen/_13ssp" />
-
             </GridLayout>
 
             <androidx.cardview.widget.CardView
@@ -262,7 +242,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-
 
                     <TextView
                         android:layout_width="wrap_content"

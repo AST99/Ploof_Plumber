@@ -101,17 +101,6 @@
                         android:textAllCaps="false"
                         android:textSize="@dimen/_13ssp" />
 
-                    <TextView
-                        android:id="@+id/txtViewIP"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:padding="@dimen/_5sdp"
-                        android:text="Info personnelle"
-                        android:textAlignment="center"
-                        android:textSize="@dimen/_14ssp"
-                        android:visibility="gone" />
-
                     <View
                         android:id="@+id/divider3"
                         android:layout_width="@dimen/_1sdp"
@@ -129,16 +118,6 @@
                         android:textAllCaps="false"
                         android:textSize="@dimen/_13ssp" />
 
-                    <TextView
-                        android:id="@+id/txtViewFS"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:padding="@dimen/_5sdp"
-                        android:text="Fuites signalées"
-                        android:textAlignment="center"
-                        android:textSize="@dimen/_14ssp"
-                        android:visibility="gone" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -270,7 +249,7 @@
                         android:layout_marginStart="@dimen/_10sdp"
                         android:layout_marginTop="@dimen/_9sdp"
                         android:text=" Numéro de téléphone"
-                        android:textColor="#000000"
+                        android:textColor="#757575"
                         android:textSize="@dimen/_13ssp"
                         app:drawableStartCompat="@drawable/ic_mobile" />
 
@@ -312,7 +291,7 @@
                         android:layout_marginStart="@dimen/_10sdp"
                         android:layout_marginTop="@dimen/_9sdp"
                         android:text=" E-mail"
-                        android:textColor="#000000"
+                        android:textColor="#757575"
                         android:textSize="@dimen/_13ssp"
                         app:drawableStartCompat="@drawable/ic_mail_info" />
 
