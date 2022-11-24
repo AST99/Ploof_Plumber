@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Plombiers_Ploof</string>
+    <string name="mot_de_passe_oubli"><u>Mot de passe oublié ?</u></string>
+    <string name="logo">logo</string>
+    <string name="ploof">Ploof</string>
+    <string name="slogant">Parce que l\'eau est précieuse</string>
+    <string name="connexion">Connexion</string>
+    <string name="phone">Téléphone</string>
+    <string name="e_mail">E-mail</string>
+    <string name="phoneNumber">Numéro de téléphone</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="creer_compte">Vous n\'avez pas de compte ?</string>
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="msg_de_bienvenue">Bienvenue sur votre plateforme de suivi de consommation d\'eau et de signalisation de fuites d\'eau</string>
+    <string name="inscription">Inscription</string>
+    <string name="nom_et_prenoms">Nom et prénoms</string>
+    <string name="confirmer_le_mot_de_passe">Confirmer le mot de passe</string>
+    <string name="services">Services</string>
+
+    <string name="open_lateral_menu">Ouvrir</string>
+    <string name="close_lateral_menu">Fermer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="signaler_une_fuite">Signaler une fuite</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image_signaler_fuite">Image signaler fuite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="vous_n_avez_pas_obtenu_le_code_renvoyer">Vous n\'avez pas obtenu le code ? <b>Renvoyer</b></string>
+    <string name="services_description"><b>-Détection automatique de fuites :</b> Grâce à l\'analyse des variations de la consommation Régulières, nous détectons vos fuites en un temps records, vos surconsommations et vous les signalons.\n<b>-Suivi de consommation :</b> Nous vous donnons un aperçu en temps réel de votre consommation en eau\n<b>-Service de plomberie et de vidange:</b> Grace à notre base de données de plombiers, nous prenons en charge immédiatement votre problème.</string>
+    <string name="about"><b>Ploof</b> est une jeune startup qui intervient dans la gestion efficace de l\'eau en zone urbaine. Grâce à un dispositif électronique et une application mobile, nous suivons en temps réel la consommation en eau des ménages, et industries et bâtiments et faisons la détection automatique des fuites d\'eaux. Nous préservons ainsi le patrimoine naturel eau et développons l\'écoresponsabilité au niveau individuelle des citoyens.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bonjour">Bonjour</string>
+    <string name="aucune_notification_pour_l_instant">Aucune notification pour l\'instant</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>
